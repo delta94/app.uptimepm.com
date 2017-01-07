@@ -1,0 +1,92 @@
+{
+  "Dashboard": {
+    "defaults": "Dashboard",
+    "origin": [
+      [
+        "src/routes/client/layout/navigation/Navbar.tsx",
+        29
+      ]
+    ]
+  },
+  "Users": {
+    "defaults": "Users",
+    "origin": [
+      [
+        "src/routes/client/layout/navigation/Navbar.tsx",
+        34
+      ]
+    ]
+  },
+  "Roles": {
+    "defaults": "Roles",
+    "origin": [
+      [
+        "src/routes/client/layout/navigation/Navbar.tsx",
+        38
+      ]
+    ]
+  },
+  "Clients": {
+    "defaults": "Clients",
+    "origin": [
+      [
+        "src/routes/client/layout/navigation/Navbar.tsx",
+        42
+      ]
+    ]
+  },
+  "Dealers": {
+    "defaults": "Dealers",
+    "origin": [
+      [
+        "src/routes/client/layout/navigation/Navbar.tsx",
+        46
+      ]
+    ]
+  },
+  "Equipment": {
+    "defaults": "Equipment",
+    "origin": [
+      [
+        "src/routes/client/layout/navigation/Navbar.tsx",
+        50
+      ]
+    ]
+  },
+  "Work Orders": {
+    "defaults": "Work Orders",
+    "origin": [
+      [
+        "src/routes/client/layout/navigation/Navbar.tsx",
+        54
+      ]
+    ]
+  },
+  "Inspections": {
+    "defaults": "Inspections",
+    "origin": [
+      [
+        "src/routes/client/layout/navigation/Navbar.tsx",
+        58
+      ]
+    ]
+  },
+  "Service Intervals": {
+    "defaults": "Service Intervals",
+    "origin": [
+      [
+        "src/routes/client/layout/navigation/Navbar.tsx",
+        62
+      ]
+    ]
+  },
+  "Logout": {
+    "defaults": "Logout",
+    "origin": [
+      [
+        "src/routes/client/layout/navigation/Navbar.tsx",
+        66
+      ]
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "Corporate": {
+    "defaults": "Corporate",
+    "origin": [
+      [
+        "src/containers/Topbar/HorizontalNav.tsx",
+        38
+      ]
+    ]
+  },
+  "Dashboard": {
+    "defaults": "Dashboard",
+    "origin": [
+      [
+        "src/containers/Topbar/HorizontalNav.tsx",
+        42
+      ]
+    ]
+  },
+  "Equipment": {
+    "defaults": "Equipment",
+    "origin": [
+      [
+        "src/containers/Topbar/HorizontalNav.tsx",
+        48
+      ]
+    ]
+  },
+  "Clients": {
+    "defaults": "Clients",
+    "origin": [
+      [
+        "src/containers/Topbar/HorizontalNav.tsx",
+        54
+      ]
+    ]
+  },
+  "Dealers": {
+    "defaults": "Dealers",
+    "origin": [
+      [
+        "src/containers/Topbar/HorizontalNav.tsx",
+        60
+      ]
+    ]
+  },
+  "Inspection Templates": {
+    "defaults": "Inspection Templates",
+    "origin": [
+      [
+        "src/containers/Topbar/HorizontalNav.tsx",
+        66
+      ]
+    ]
+  },
+  "Makes": {
+    "defaults": "Makes",
+    "origin": [
+      [
+        "src/containers/Topbar/HorizontalNav.tsx",
+        72
+      ]
+    ]
+  },
+  "Roles": {
+    "defaults": "Roles",
+    "origin": [
+      [
+        "src/containers/Topbar/HorizontalNav.tsx",
+        78
+      ]
+    ]
+  },
+  "Service Intervals": {
+    "defaults": "Service Intervals",
+    "origin": [
+      [
+        "src/containers/Topbar/HorizontalNav.tsx",
+        84
+      ]
+    ]
+  },
+  "Users": {
+    "defaults": "Users",
+    "origin": [
+      [
+        "src/containers/Topbar/HorizontalNav.tsx",
+        90
+      ]
+    ]
+  },
+  "Payment Plans": {
+    "defaults": "Payment Plans",
+    "origin": [
+      [
+        "src/containers/Topbar/HorizontalNav.tsx",
+        96
+      ]
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+mutation findOfficeLocationsForSelect($searchText: String!, $clientId: String!) {
+  findOfficeLocationsForSelect(searchText: $searchText, clientId: $clientId) {
+    id
+    name
+  }
+}

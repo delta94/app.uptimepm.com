@@ -1,0 +1,8 @@
+query classifications {
+  classifications {
+    classifications {
+      name
+    }
+    totalRows
+  }
+}

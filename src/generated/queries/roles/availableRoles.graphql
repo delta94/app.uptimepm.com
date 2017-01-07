@@ -1,0 +1,17 @@
+query availableRoles($skip: Int!, $pageSize: Int!, $searchText: String, $userId: String) {
+  availableRoles(skip: $skip, pageSize: $pageSize, searchText: $searchText, userId: $userId) {
+    roles {
+      id
+      name
+      type
+      scope
+      permissions {
+        id
+        name
+        type
+        privileges
+      }
+    }
+    totalRows
+  }
+}

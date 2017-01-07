@@ -1,0 +1,11 @@
+.App-user {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3vh 0 0 0;
+  border-right: 1px solid #e8e8e8;
+}
+.App-username {
+  margin: 1rem 0;
+}

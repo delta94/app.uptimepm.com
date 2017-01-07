@@ -1,0 +1,49 @@
+query inspectionById($id: String!) {
+  inspectionById(id: $id) {
+    id
+    type
+    equipment {
+      id
+      name
+      classification
+      meterType
+      make
+      model
+    }
+    meterValue
+    meterImage
+    checklist {
+      id
+      title
+      type
+      consumable
+      consumableFluid
+      consumableAmount
+      consumableUnitOfMeasure
+      notes
+      status
+      photos
+      numericStatus
+      textStatus
+    }
+    who {
+      id
+      firstName
+      lastName
+      email
+    }
+    supervisor {
+      id
+      firstName
+      lastName
+      email
+    }
+    client {
+      id
+      name
+    }
+    completedOn
+    createdOn
+    updatedOn
+  }
+}

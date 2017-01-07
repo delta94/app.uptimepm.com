@@ -1,0 +1,16 @@
+mutation findOfficeLocationsReference($searchText: String!, $clientId: String!) {
+  findOfficeLocationsReference(searchText: $searchText, clientId: $clientId) {
+    id
+    name
+    client {
+      id
+      name
+    }
+    notificationUsers {
+      id
+      firstName
+      lastName
+      email
+    }
+  }
+}

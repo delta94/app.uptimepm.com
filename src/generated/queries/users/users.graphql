@@ -1,0 +1,24 @@
+query users($skip: Int!, $pageSize: Int!, $searchText: String) {
+  users(skip: $skip, pageSize: $pageSize, searchText: $searchText) {
+    users {
+      id
+      firstName
+      lastName
+      email
+      client {
+        id
+        name
+      }
+      phones {
+        type
+        digits
+      }
+      roles {
+        id
+        name
+      }
+      updatedOn
+    }
+    totalRows
+  }
+}

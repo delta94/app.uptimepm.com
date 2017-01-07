@@ -1,0 +1,41 @@
+query workOrders($skip: Int!, $pageSize: Int!, $searchText: String, $completed: Boolean, $equipmentId: String) {
+  workOrders(skip: $skip, pageSize: $pageSize, searchText: $searchText, completed: $completed, equipmentId: $equipmentId) {
+    workOrders {
+      id
+      equipment {
+        id
+        name
+        nickname
+        make
+        model
+        meterType
+        classification
+        vinOrSerial
+      }
+      client {
+        id
+        name
+      }
+      reportedBy {
+        id
+        firstName
+        lastName
+      }
+      inspection {
+        id
+        title
+      }
+      serviceInterval {
+        id
+        title
+      }
+      status
+      meterValue
+      completedOn
+      assignedOn
+      createdOn
+      updatedOn
+    }
+    totalRows
+  }
+}

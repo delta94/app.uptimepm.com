@@ -1,0 +1,40 @@
+.user-profile {
+  .right-icons {
+    position: absolute;
+    display: flex;
+    right: 0;
+    margin-left: 24px;
+    text-align: right;
+    margin-top: -10px;
+  }
+  .one-item {
+    padding-right: 10px;
+  }
+  .one-item-bell {
+    padding-right: 0;
+    padding-left: 4px;
+  }
+  .ant-avatar {
+    padding: 2px;
+  }
+  .upm-avatar {
+    color: #121212;
+  }
+  .anticon-bell {
+    width: 24px;
+    font-size: 18px;
+    color: #f5f5f5;
+  }
+  .anticon-logout {
+    width: 24px;
+    font-size: 18px;
+    color: #f5f5f5;
+  }
+}
+
+.badge-work-orders {
+  .ant-scroll-number {
+    margin-right: -100px;
+    margin-top: 3px;
+  }
+}

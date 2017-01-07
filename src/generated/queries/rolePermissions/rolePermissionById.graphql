@@ -1,0 +1,8 @@
+query rolePermissionById($id: String!) {
+  rolePermissionById(id: $id) {
+    id
+    name
+    type
+    privileges
+  }
+}

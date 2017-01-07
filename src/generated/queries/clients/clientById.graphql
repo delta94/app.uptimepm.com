@@ -1,0 +1,31 @@
+query clientById($id: String!) {
+  clientById(id: $id) {
+    id
+    uuid
+    loginDomain
+    name
+    website
+  }
+  officeLocations(skip: 0, pageSize: 100, id: $id) {
+    officeLocations {
+      id
+      name
+      phones {
+        type
+        digits
+        extension
+      }
+      addresses {
+        lineOne
+        lineTwo
+        lineThree
+        city
+        state
+        postalCode
+        country
+        type
+      }
+    }
+    totalRows
+  }
+}

@@ -1,0 +1,30 @@
+mutation saveWorkOrderStatus($data: WorkOrderStatusInput!) {
+  saveWorkOrderStatus(data: $data) {
+    id
+    equipment {
+      id
+      name
+      classification
+      make
+      model
+      meterType
+      vinOrSerial
+    }
+    client {
+      id
+      name
+    }
+    assignedTo {
+      id
+      firstName
+      lastName
+      email
+    }
+    notes
+    status
+    meterValue
+    completedOn
+    createdOn
+    updatedOn
+  }
+}

@@ -1,0 +1,40 @@
+mutation saveUser($data: UserInput!) {
+  saveUser(data: $data) {
+    id
+    firstName
+    lastName
+    email
+    password
+    active
+    roles {
+      id
+      name
+      type
+      permissions {
+        id
+        name
+        type
+        privileges
+      }
+    }
+    client {
+      id
+      name
+    }
+    phones {
+      type
+      digits
+      extension
+    }
+    addresses {
+      lineOne
+      lineTwo
+      lineThree
+      city
+      state
+      postalCode
+      country
+      type
+    }
+  }
+}

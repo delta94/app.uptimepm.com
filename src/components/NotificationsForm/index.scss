@@ -1,0 +1,13 @@
+.notification-form {
+  .show {
+    display: inherit;
+  }
+
+  .hide {
+    display: none;
+  }
+  .status {
+    text-align: right;
+    padding-top: 7px;
+  }
+}

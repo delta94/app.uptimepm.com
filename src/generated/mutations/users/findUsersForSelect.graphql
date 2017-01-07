@@ -1,0 +1,8 @@
+mutation findUsersForSelect($searchText: String, $clientId: String!, $role: String) {
+  findUsersForSelect(searchText: $searchText, clientId: $clientId, role: $role) {
+    id
+    firstName
+    lastName
+    email
+  }
+}

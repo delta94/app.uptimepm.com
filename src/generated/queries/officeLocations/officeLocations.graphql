@@ -1,0 +1,28 @@
+query officeLocations($skip: Int!, $pageSize: Int!, $searchText: String) {
+  officeLocations(skip: $skip, pageSize: $pageSize, searchText: $searchText) {
+    officeLocations {
+      id
+      name
+      client {
+        id
+        name
+      }
+      phones {
+        type
+        digits
+        extension
+      }
+      addresses {
+        lineOne
+        lineTwo
+        lineThree
+        city
+        state
+        postalCode
+        country
+        type
+      }
+    }
+    totalRows
+  }
+}

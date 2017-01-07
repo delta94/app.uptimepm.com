@@ -1,0 +1,33 @@
+query notifications($skip: Int!, $pageSize: Int!, $searchText: String) {
+  notifications(skip: $skip, pageSize: $pageSize, searchText: $searchText) {
+    notifications {
+      id
+      notificationSource
+      client {
+        id
+        name
+      }
+      equipment {
+        id
+        name
+      }
+      alertedUsers {
+        id
+        firstName
+        lastName
+        email
+      }
+      officeLocation {
+        id
+        name
+      }
+      serviceInterval {
+        id
+        title
+      }
+      createdOn
+      viewedOn
+    }
+    totalRows
+  }
+}

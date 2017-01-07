@@ -1,0 +1,29 @@
+mutation saveServiceInterval($data: ServiceIntervalInput!) {
+  saveServiceInterval(data: $data) {
+    id
+    title
+    make
+    model
+    meterType
+    client {
+      id
+      name
+    }
+    milestones {
+      id
+      title
+      alertBeforeDue
+      meterValue
+      oneTime
+      serviceItems {
+        id
+        name
+        partName
+        partNumber
+        fromMilestoneId
+      }
+    }
+    createdOn
+    updatedOn
+  }
+}

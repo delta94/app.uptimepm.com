@@ -1,0 +1,8 @@
+query chartTotal {
+  chartTotal {
+    chartData {
+      fluid
+      amount
+    }
+  }
+}

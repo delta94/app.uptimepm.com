@@ -1,0 +1,11 @@
+query rolePermissions($skip: Int!, $pageSize: Int!, $searchText: String) {
+  rolePermissions(skip: $skip, pageSize: $pageSize, searchText: $searchText) {
+    rolePermissions {
+      id
+      name
+      type
+      privileges
+    }
+    totalRows
+  }
+}

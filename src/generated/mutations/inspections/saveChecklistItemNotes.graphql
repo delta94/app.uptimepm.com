@@ -1,0 +1,9 @@
+mutation saveChecklistItemNotes($data: SaveChecklistItemNotesInput!) {
+  saveChecklistItemNotes(data: $data) {
+    id
+    checklist {
+      id
+      notes
+    }
+  }
+}

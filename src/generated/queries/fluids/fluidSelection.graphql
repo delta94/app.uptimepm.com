@@ -1,0 +1,8 @@
+query fluidSelection {
+  fluids {
+    fluids {
+      name
+    }
+    totalRows
+  }
+}

@@ -1,0 +1,70 @@
+query dealers($skip: Int!, $pageSize: Int!, $searchText: String) {
+  dealers(skip: $skip, pageSize: $pageSize, searchText: $searchText) {
+    dealers {
+      id
+      name
+      website
+      email
+      phones {
+        type
+        digits
+        extension
+      }
+      parts {
+        id
+        firstName
+        lastName
+        email
+        representativeType
+        phone {
+          type
+          digits
+          extension
+        }
+      }
+      sales {
+        id
+        firstName
+        lastName
+        email
+        representativeType
+        phone {
+          type
+          digits
+          extension
+        }
+      }
+      service {
+        id
+        firstName
+        lastName
+        email
+        representativeType
+        phone {
+          type
+          digits
+          extension
+        }
+      }
+
+      location {
+        id
+        lineOne
+        lineTwo
+        lineThree
+        city
+        state
+        postalCode
+        country
+        type
+      }
+      client {
+        id
+        name
+      }
+      createdOn
+      updatedOn
+    }
+    totalRows
+  }
+}

@@ -1,0 +1,12 @@
+query equipmentForSelect($searchText: String, $clientId: String!, $role: String) {
+  equipmentForSelect(searchText: $searchText, clientId: $clientId, role: $role) {
+    id
+    name
+    nickname
+    meterType
+    classification
+    make
+    model
+    vinOrSerial
+  }
+}

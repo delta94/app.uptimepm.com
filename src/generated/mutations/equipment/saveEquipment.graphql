@@ -1,0 +1,55 @@
+mutation saveEquipment($data: EquipmentInput!) {
+  saveEquipment(data: $data) {
+    id
+    type
+    name
+    nickname
+    vinOrSerial
+    year
+    classification
+    attachment
+    meterType
+    meterValue
+    expectedUsage {
+      mon
+      tue
+      wed
+      thu
+      fri
+      sat
+      sun
+    }
+    job {
+      id
+      name
+      jobNumber
+    }
+    operators {
+      id
+      firstName
+      lastName
+      email
+    }
+    client {
+      id
+      name
+    }
+    make
+    mechanics {
+      id
+      firstName
+      lastName
+      email
+    }
+    serviceInterval {
+      id
+      title
+    }
+    dealers {
+      id
+      name
+    }
+    dateInService
+    dateOutOfService
+  }
+}

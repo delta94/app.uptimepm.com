@@ -1,0 +1,6 @@
+mutation inspectionTemplatesForSelect($searchText: String!, $clientId: String!, $classification: String!) {
+  inspectionTemplatesForSelect(searchText: $searchText, clientId: $clientId, classification: $classification) {
+    id
+    title
+  }
+}

@@ -1,0 +1,18 @@
+mutation cloneInspectionTemplate($id: String!) {
+  cloneInspectionTemplate(idToClone: $id) {
+    id
+    title
+    classification
+    equipmentType
+    checklist {
+      title
+      type
+      consumable
+      photoRequired
+      statuses {
+        text
+        shouldSendAlert
+      }
+    }
+  }
+}

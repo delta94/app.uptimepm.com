@@ -1,0 +1,199 @@
+{
+  "Corporate": {
+    "defaults": "Corporate",
+    "origin": [
+      [
+        "src/containers/Sidebar/SidebarContent.tsx",
+        66
+      ]
+    ]
+  },
+  "Dashboard": {
+    "defaults": "Dashboard",
+    "origin": [
+      [
+        "src/containers/Sidebar/SidebarContent.tsx",
+        70
+      ],
+      [
+        "src/containers/Sidebar/SidebarContent.tsx",
+        169
+      ]
+    ]
+  },
+  "Clients": {
+    "defaults": "Clients",
+    "origin": [
+      [
+        "src/containers/Sidebar/SidebarContent.tsx",
+        76
+      ]
+    ]
+  },
+  "Office Locations": {
+    "defaults": "Office Locations",
+    "origin": [
+      [
+        "src/containers/Sidebar/SidebarContent.tsx",
+        82
+      ],
+      [
+        "src/containers/Sidebar/SidebarContent.tsx",
+        175
+      ]
+    ]
+  },
+  "Jobs": {
+    "defaults": "Jobs",
+    "origin": [
+      [
+        "src/containers/Sidebar/SidebarContent.tsx",
+        89
+      ],
+      [
+        "src/containers/Sidebar/SidebarContent.tsx",
+        182
+      ]
+    ]
+  },
+  "Inspection Templates": {
+    "defaults": "Inspection Templates",
+    "origin": [
+      [
+        "src/containers/Sidebar/SidebarContent.tsx",
+        95
+      ],
+      [
+        "src/containers/Sidebar/SidebarContent.tsx",
+        207
+      ]
+    ]
+  },
+  "Inspection History": {
+    "defaults": "Inspection History",
+    "origin": [
+      [
+        "src/containers/Sidebar/SidebarContent.tsx",
+        101
+      ],
+      [
+        "src/containers/Sidebar/SidebarContent.tsx",
+        213
+      ]
+    ]
+  },
+  "Service Intervals": {
+    "defaults": "Service Intervals",
+    "origin": [
+      [
+        "src/containers/Sidebar/SidebarContent.tsx",
+        107
+      ],
+      [
+        "src/containers/Sidebar/SidebarContent.tsx",
+        195
+      ]
+    ]
+  },
+  "Equipment": {
+    "defaults": "Equipment",
+    "origin": [
+      [
+        "src/containers/Sidebar/SidebarContent.tsx",
+        113
+      ],
+      [
+        "src/containers/Sidebar/SidebarContent.tsx",
+        189
+      ]
+    ]
+  },
+  "Dealers": {
+    "defaults": "Dealers",
+    "origin": [
+      [
+        "src/containers/Sidebar/SidebarContent.tsx",
+        119
+      ],
+      [
+        "src/containers/Sidebar/SidebarContent.tsx",
+        201
+      ]
+    ]
+  },
+  "Work Orders": {
+    "defaults": "Work Orders",
+    "origin": [
+      [
+        "src/containers/Sidebar/SidebarContent.tsx",
+        125
+      ],
+      [
+        "src/containers/Sidebar/SidebarContent.tsx",
+        220
+      ]
+    ]
+  },
+  "Fluid Reports": {
+    "defaults": "Fluid Reports",
+    "origin": [
+      [
+        "src/containers/Sidebar/SidebarContent.tsx",
+        131
+      ],
+      [
+        "src/containers/Sidebar/SidebarContent.tsx",
+        227
+      ]
+    ]
+  },
+  "Makes": {
+    "defaults": "Makes",
+    "origin": [
+      [
+        "src/containers/Sidebar/SidebarContent.tsx",
+        137
+      ]
+    ]
+  },
+  "Roles": {
+    "defaults": "Roles",
+    "origin": [
+      [
+        "src/containers/Sidebar/SidebarContent.tsx",
+        143
+      ]
+    ]
+  },
+  "Role Permissions": {
+    "defaults": "Role Permissions",
+    "origin": [
+      [
+        "src/containers/Sidebar/SidebarContent.tsx",
+        149
+      ]
+    ]
+  },
+  "Users": {
+    "defaults": "Users",
+    "origin": [
+      [
+        "src/containers/Sidebar/SidebarContent.tsx",
+        155
+      ],
+      [
+        "src/containers/Sidebar/SidebarContent.tsx",
+        235
+      ]
+    ]
+  },
+  "Payment Plans": {
+    "defaults": "Payment Plans",
+    "origin": [
+      [
+        "src/containers/Sidebar/SidebarContent.tsx",
+        161
+      ]
+    ]
+  }
+}

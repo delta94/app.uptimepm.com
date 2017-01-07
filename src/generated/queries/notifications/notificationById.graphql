@@ -1,0 +1,27 @@
+query notificationById($id: String!) {
+  notificationById(id: $id) {
+    id
+    notificationSource
+    client {
+      id
+      name
+    }
+    equipment {
+      id
+      name
+    }
+    alertedUsers {
+      id
+      firstName
+      lastName
+    }
+    officeLocation {
+      id
+      name
+    }
+    serviceInterval {
+      id
+      title
+    }
+  }
+}

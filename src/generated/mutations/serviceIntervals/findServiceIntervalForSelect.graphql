@@ -1,0 +1,6 @@
+mutation findServiceIntervals($searchText: String!, $clientId: String!) {
+  findServiceIntervals(searchText: $searchText, clientId: $clientId) {
+    id
+    title
+  }
+}

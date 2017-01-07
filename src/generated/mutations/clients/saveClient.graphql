@@ -1,0 +1,8 @@
+mutation saveClient($data: ClientInput!) {
+  saveClient(data: $data) {
+    id
+    name
+    loginDomain
+    website
+  }
+}

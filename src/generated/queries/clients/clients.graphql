@@ -1,0 +1,12 @@
+query clients($skip: Int!, $pageSize: Int!, $searchText: String) {
+  clients(skip: $skip, pageSize: $pageSize, searchText: $searchText) {
+    clients {
+      id
+      name
+      loginDomain
+      website
+      updatedOn
+    }
+    totalRows
+  }
+}

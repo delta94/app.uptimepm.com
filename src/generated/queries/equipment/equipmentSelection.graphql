@@ -1,0 +1,13 @@
+query equipmentSelection($skip: Int!, $pageSize: Int!, $searchText: String) {
+  equipment(skip: $skip, pageSize: $pageSize, searchText: $searchText) {
+    equipment {
+      id
+      name
+      nickname
+      meterType
+      classification
+      attachment
+    }
+    totalRows
+  }
+}

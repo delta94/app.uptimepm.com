@@ -1,0 +1,9 @@
+query rolesForSelection($skip: Int!, $pageSize: Int!, $searchText: String) {
+  roles(skip: $skip, pageSize: $pageSize, searchText: $searchText) {
+    roles {
+      id
+      name
+    }
+    totalRows
+  }
+}

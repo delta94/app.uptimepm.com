@@ -1,0 +1,20 @@
+query dealersForSelection($skip: Int!, $pageSize: Int!, $searchText: String) {
+  dealersSearch(skip: $skip, pageSize: $pageSize, searchText: $searchText) {
+    dealers {
+      id
+      name
+      # location {
+      #   id
+      #   lineOne
+      #   lineTwo
+      #   lineThree
+      #   city
+      #   state
+      #   postalCode
+      #   country
+      #   type
+      # }
+    }
+    totalRows
+  }
+}

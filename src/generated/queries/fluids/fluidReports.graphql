@@ -1,0 +1,33 @@
+query fluidReports($skip: Int!, $pageSize: Int!, $searchText: String) {
+  fluidReports(skip: $skip, pageSize: $pageSize, searchText: $searchText) {
+    fluidReports {
+      id
+      equipment {
+        id
+        name
+        classification
+        meterType
+        make
+        model
+      }
+      fluid
+      unitOfMeasure
+      amount
+      user {
+        id
+        firstName
+        lastName
+        email
+      }
+      client {
+        id
+        name
+      }
+      completedOn
+      createdOn
+      updatedOn
+    }
+
+    totalRows
+  }
+}

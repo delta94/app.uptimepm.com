@@ -1,0 +1,15 @@
+query makes($skip: Int!, $pageSize: Int!, $searchText: String) {
+  makes(skip: $skip, pageSize: $pageSize, searchText: $searchText) {
+    makes {
+      id
+      name
+      models {
+        name
+        equipmentType
+      }
+      createdOn
+      updatedOn
+    }
+    totalRows
+  }
+}

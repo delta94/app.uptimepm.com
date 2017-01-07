@@ -1,0 +1,22 @@
+query me {
+  me {
+    user {
+      id
+      firstName
+      lastName
+      email
+      client {
+        id
+        name
+      }
+      roles {
+        name
+        type
+        permissions {
+          name
+          privileges
+        }
+      }
+    }
+  }
+}

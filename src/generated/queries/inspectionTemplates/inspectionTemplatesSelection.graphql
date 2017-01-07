@@ -1,0 +1,10 @@
+query inspectionTemplatesSelection($skip: Int!, $pageSize: Int!, $searchText: String) {
+  inspectionTemplates(skip: $skip, pageSize: $pageSize, searchText: $searchText) {
+    inspectionTemplates {
+      id
+      title
+      classification
+      attachment
+    }
+  }
+}

@@ -1,0 +1,11 @@
+query usersForSelection($skip: Int!, $pageSize: Int!, $searchText: String) {
+  users(skip: $skip, pageSize: $pageSize, searchText: $searchText) {
+    users {
+      id
+      firstName
+      lastName
+      email
+    }
+    totalRows
+  }
+}

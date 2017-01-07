@@ -1,0 +1,41 @@
+query inspectionsForList($skip: Int!, $pageSize: Int!, $searchText: String) {
+  inspections(skip: $skip, pageSize: $pageSize, searchText: $searchText) {
+    inspections {
+      id
+      meterValue
+      type
+      completed
+      checklist {
+        title
+      }
+      client {
+        id
+        name
+      }
+      equipment {
+        id
+        name
+        classification
+        meterType
+        make
+        model
+      }
+      who {
+        id
+        firstName
+        lastName
+        email
+      }
+      supervisor {
+        id
+        firstName
+        lastName
+        email
+      }
+      completedOn
+      createdOn
+      updatedOn
+    }
+    totalRows
+  }
+}

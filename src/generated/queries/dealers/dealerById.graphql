@@ -1,0 +1,65 @@
+query dealerById($id: String!) {
+  dealerById(id: $id) {
+    id
+    name
+    website
+    email
+    location {
+      id
+      lineOne
+      lineTwo
+      lineThree
+      city
+      state
+      postalCode
+      country
+      type
+    }
+    parts {
+      id
+      firstName
+      lastName
+      email
+      representativeType
+      phone {
+        type
+        digits
+        extension
+      }
+    }
+    sales {
+      id
+      firstName
+      lastName
+      email
+      representativeType
+      phone {
+        type
+        digits
+        extension
+      }
+    }
+    service {
+      id
+      firstName
+      lastName
+      email
+      representativeType
+      phone {
+        type
+        digits
+        extension
+      }
+    }
+
+    phones {
+      type
+      digits
+      extension
+    }
+    client {
+      id
+      name
+    }
+  }
+}

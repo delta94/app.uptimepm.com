@@ -1,0 +1,6 @@
+query chartDay($dateFrom: DateTime, $dateTo: DateTime, $selectedFluids: [String!]) {
+  chartDay(dateFrom: $dateFrom, dateTo: $dateTo, selectedFluids: $selectedFluids) {
+    chartByDayDataJSON
+    fluidNames
+  }
+}

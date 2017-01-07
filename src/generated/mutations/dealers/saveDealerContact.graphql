@@ -1,0 +1,14 @@
+mutation saveDealerContact($data: DealerContactInput!) {
+  saveDealerContact(data: $data) {
+    id
+    firstName
+    lastName
+    email
+    representativeType
+    phone {
+      type
+      digits
+      extension
+    }
+  }
+}

@@ -1,0 +1,12 @@
+mutation saveMake($data: MakeInput!) {
+  saveMake(data: $data) {
+    id
+    name
+    models {
+      name
+      equipmentType
+    }
+    createdOn
+    updatedOn
+  }
+}

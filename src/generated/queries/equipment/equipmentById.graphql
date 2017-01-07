@@ -1,0 +1,65 @@
+query equipmentById($id: String!) {
+  equipmentById(id: $id) {
+    id
+    type
+    name
+    nickname
+    vinOrSerial
+    year
+    classification
+    attachment
+    meterType
+    meterValue
+    totalInspections
+    expectedUsage {
+      mon
+      tue
+      wed
+      thu
+      fri
+      sat
+      sun
+    }
+    inspectionTemplate {
+      id
+      title
+    }
+    officeLocation {
+      id
+      name
+    }
+    job {
+      id
+      name
+      jobNumber
+    }
+    dealers {
+      id
+      name
+    }
+    operators {
+      id
+      firstName
+      lastName
+      email
+    }
+    client {
+      id
+      name
+    }
+    make
+    model
+    mechanics {
+      id
+      firstName
+      lastName
+      email
+    }
+    serviceInterval {
+      id
+      title
+    }
+    dateInService
+    dateOutOfService
+  }
+}

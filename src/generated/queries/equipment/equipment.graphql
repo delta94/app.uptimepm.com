@@ -1,0 +1,36 @@
+query equipment($skip: Int!, $pageSize: Int!, $searchText: String) {
+  equipment(skip: $skip, pageSize: $pageSize, searchText: $searchText) {
+    equipment {
+      id
+      type
+      name
+      nickname
+      vinOrSerial
+      year
+      make
+      classification
+      attachment
+      meterType
+      meterValue
+      client {
+        id
+        name
+      }
+      dealers {
+        id
+        name
+      }
+      officeLocation {
+        id
+        name
+      }
+      job {
+        id
+        name
+        jobNumber
+      }
+      updatedOn
+    }
+    totalRows
+  }
+}

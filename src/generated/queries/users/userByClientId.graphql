@@ -1,0 +1,8 @@
+query usersByClientId($clientId: String!, $role: String) {
+  userByClientId(clientId: $clientId, role: $role) {
+    id
+    firstName
+    lastName
+    email
+  }
+}

@@ -1,0 +1,25 @@
+query inspectionTemplates($skip: Int!, $pageSize: Int!, $searchText: String) {
+  inspectionTemplates(skip: $skip, pageSize: $pageSize, searchText: $searchText) {
+    inspectionTemplates {
+      id
+      title
+      equipmentType
+      classification
+      attachment
+      checklist {
+        title
+        type
+        consumable
+        consumableFluid
+        photoRequired
+        statuses {
+          text
+          shouldSendAlert
+          isDefault
+        }
+      }
+      updatedOn
+    }
+    totalRows
+  }
+}

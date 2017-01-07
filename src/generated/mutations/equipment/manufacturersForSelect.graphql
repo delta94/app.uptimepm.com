@@ -1,0 +1,3 @@
+mutation makesForSelect($searchText: String!) {
+  makesForSelect(searchText: $searchText)
+}

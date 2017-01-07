@@ -1,0 +1,52 @@
+mutation saveOfficeLocation($data: OfficeLocationInput!) {
+  saveOfficeLocation(data: $data) {
+    id
+    name
+    phones {
+      type
+      digits
+      extension
+    }
+    addresses {
+      lineOne
+      lineTwo
+      lineThree
+      city
+      state
+      postalCode
+      country
+      type
+    }
+    notificationUsers {
+      id
+      firstName
+      lastName
+      email
+    }
+    operators {
+      id
+      firstName
+      lastName
+      email
+    }
+    mechanics {
+      id
+      firstName
+      lastName
+      email
+    }
+<<<<<<< HEAD
+=======
+    equipment {
+      id
+      name
+      nickname
+      meterType
+      classification
+      make
+      model
+      vinOrSerial
+    }
+>>>>>>> 31ffb76a8775a0da3cb771a0da901e3ac0e6c921
+  }
+}

@@ -1,0 +1,3 @@
+mutation modelsForSelect($searchText: String!, $make: String!) {
+  modelsForSelect(searchText: $searchText, make: $make)
+}

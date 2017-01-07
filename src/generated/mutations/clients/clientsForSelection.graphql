@@ -1,0 +1,6 @@
+mutation clientsForSelection($searchText: String!) {
+  clientsForSelection(searchText: $searchText) {
+    id
+    name
+  }
+}

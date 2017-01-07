@@ -1,0 +1,51 @@
+.addEquipment {
+  padding: 16px;
+
+  .alignCenter {
+    text-align: center;
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.right {
+  text-align: right;
+  background: #000;
+}
+
+.flexWidget {
+  flex: 1;
+  min-width: 200px;
+}
+.roleWidget {
+  // .ant-card-body {
+  //   padding-bottom: 0;
+  h3 {
+    margin: -24px -24px 10px -24px !important;
+    background-color: lighten(#000, 90%); //$primary-color;
+    color: black;
+    padding: 10px;
+  }
+  // }
+}
+
+.inactive {
+  background-color: lighten(#000, 92%);
+  h3,
+  span {
+    color: lighten(#000, 75%) !important;
+  }
+}
+
+.add-make {
+  width: 100%;
+  text-align: right;
+  margin-top: -15px;
+  margin-bottom: 12px;
+}

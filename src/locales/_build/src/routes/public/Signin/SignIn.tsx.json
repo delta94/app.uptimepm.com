@@ -1,0 +1,56 @@
+{
+  "Sign In": {
+    "defaults": "Sign In",
+    "origin": [
+      [
+        "src/routes/public/Signin/SignIn.tsx",
+        83
+      ]
+    ]
+  },
+  "By Signing In, you can access all features of our services.": {
+    "defaults": "By Signing In, you can access all features of our services.",
+    "origin": [
+      [
+        "src/routes/public/Signin/SignIn.tsx",
+        86
+      ]
+    ]
+  },
+  "Register an Account": {
+    "defaults": "Register an Account.",
+    "origin": [
+      [
+        "src/routes/public/Signin/SignIn.tsx",
+        91
+      ]
+    ]
+  },
+  "Sign In...": {
+    "defaults": "Sign In...",
+    "origin": [
+      [
+        "src/routes/public/Signin/SignIn.tsx",
+        118
+      ]
+    ]
+  },
+  "Sign Up": {
+    "defaults": "Sign Up",
+    "origin": [
+      [
+        "src/routes/public/Signin/SignIn.tsx",
+        121
+      ]
+    ]
+  },
+  "Forgot Password": {
+    "defaults": "Forgot Password",
+    "origin": [
+      [
+        "src/routes/public/Signin/SignIn.tsx",
+        126
+      ]
+    ]
+  }
+}

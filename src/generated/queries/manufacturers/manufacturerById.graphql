@@ -1,0 +1,12 @@
+query makeById($id: String!) {
+  makeById(id: $id) {
+    id
+    name
+    models {
+      name
+      equipmentType
+    }
+    createdOn
+    updatedOn
+  }
+}

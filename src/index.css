@@ -1,0 +1,130 @@
+html {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  line-height: 1;
+  width: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ----------- iPhone pixel ratio 3 ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 3) {
+  input[type='color'],
+  input[type='date'],
+  input[type='datetime'],
+  input[type='datetime-local'],
+  input[type='email'],
+  input[type='month'],
+  input[type='number'],
+  input[type='password'],
+  input[type='search'],
+  input[type='tel'],
+  input[type='text'],
+  input[type='time'],
+  input[type='url'],
+  input[type='week'],
+  select:focus,
+  textarea {
+    font-size: 16px !important;
+  }
+
+  .ant-input-number-input {
+    font-size: 16px !important;
+  }
+
+  .ant-select {
+    font-size: 16px !important;
+  }
+
+  .ant-calendar-picker {
+    font-size: 16px !important;
+  }
+
+  .ant-calendar-picker-input {
+    font-size: 16px !important;
+  }
+
+  .ant-calendar-input {
+    font-size: 16px !important;
+  }
+
+  .upm-main-content-wrapper {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .upm-card-widget .ant-card-body {
+    padding: 15px !important;
+    overflow: hidden;
+  }
+
+  .ant-input {
+    font-size: 16px;
+  }
+}
+
+/* ----------- iPhone pixel ratio 2 ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 2) {
+  input[type='color'],
+  input[type='date'],
+  input[type='datetime'],
+  input[type='datetime-local'],
+  input[type='email'],
+  input[type='month'],
+  input[type='number'],
+  input[type='password'],
+  input[type='search'],
+  input[type='tel'],
+  input[type='text'],
+  input[type='time'],
+  input[type='url'],
+  input[type='week'],
+  select:focus,
+  textarea {
+    font-size: 16px !important;
+  }
+
+  .ant-input-number-input {
+    font-size: 16px !important;
+  }
+
+  .ant-select {
+    font-size: 16px !important;
+  }
+
+  .ant-calendar-picker {
+    font-size: 16px !important;
+  }
+
+  .ant-calendar-picker-input {
+    font-size: 16px !important;
+  }
+
+  .ant-calendar-input {
+    font-size: 16px !important;
+  }
+
+  .upm-main-content-wrapper {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .upm-card-widget .ant-card-body {
+    padding: 15px !important;
+  }
+
+  .ant-input {
+    font-size: 16px;
+  }
+}

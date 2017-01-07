@@ -1,0 +1,10 @@
+query chartInspection {
+  chartInspection {
+    chartData {
+      id
+      firstName
+      lastName
+      total
+    }
+  }
+}

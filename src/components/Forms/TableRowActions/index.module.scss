@@ -1,0 +1,28 @@
+.tableRowActionsMenu {
+  outline: none;
+  position: relative;
+  list-style-type: none;
+  padding: 4px 0;
+  margin: 0;
+  text-align: left;
+  background-color: #fff;
+  border-radius: 6px;
+  border: solid 1px #eee;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;
+  background-clip: padding-box;
+}
+
+.tableRowActionsMenuItem {
+  line-height: 35px !important;
+  height: 35px !important;
+  padding: 5px 12px !important;
+
+  &:hover {
+    background-color: #d5e3d6 !important;
+    color: red !important;
+  }
+}
+
+.tableRowActionsMenuItemIcon {
+  margin-right: 5px !important;
+}

@@ -1,0 +1,13 @@
+query rolesByType($type: String!) {
+  rolesByType(type: $type) {
+    id
+    name
+    type
+    scope
+    permissions {
+      id
+      name
+      privileges
+    }
+  }
+}

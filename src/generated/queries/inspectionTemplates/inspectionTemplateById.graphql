@@ -1,0 +1,22 @@
+query inspectionTemplateById($id: String!) {
+  inspectionTemplateById(id: $id) {
+    id
+    title
+    equipmentType
+    classification
+    attachment
+    checklist {
+      id
+      title
+      type
+      consumable
+      consumableFluid
+      photoRequired
+      statuses {
+        text
+        shouldSendAlert
+        isDefault
+      }
+    }
+  }
+}

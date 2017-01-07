@@ -1,0 +1,33 @@
+@import '../../../../assets/scss/mixins';
+
+.addRole {
+  padding: 16px;
+
+  .alignCenter {
+    text-align: center;
+  }
+}
+
+.flexWidget {
+  flex: 1;
+  min-width: 200px;
+}
+.roleWidget {
+  // .ant-card-body {
+  //   padding-bottom: 0;
+  h3 {
+    margin: -15px -15px 0 -15px !important;
+    background-color: lighten(#000, 90%); //$primary-color;
+    color: black;
+    padding: 10px;
+  }
+  // }
+}
+
+.inactive {
+  background-color: lighten(#000, 92%);
+  h3,
+  span {
+    color: lighten(#000, 75%) !important;
+  }
+}

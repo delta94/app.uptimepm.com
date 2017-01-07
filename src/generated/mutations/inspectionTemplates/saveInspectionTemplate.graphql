@@ -1,0 +1,20 @@
+mutation saveInspectionTemplate($data: InspectionTemplateInput!) {
+  saveInspectionTemplate(data: $data) {
+    id
+    title
+    classification
+    attachment
+    equipmentType
+    checklist {
+      title
+      type
+      consumable
+      consumableFluid
+      photoRequired
+      statuses {
+        text
+        shouldSendAlert
+      }
+    }
+  }
+}

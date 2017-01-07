@@ -1,0 +1,48 @@
+query usersById($id: String!) {
+  userById(id: $id) {
+    id
+    firstName
+    lastName
+    email
+    active
+    password
+    roles {
+      id
+      name
+      type
+      permissions {
+        id
+        name
+        type
+        privileges
+      }
+    }
+    supervisor {
+      id
+      firstName
+      lastName
+      email
+    }
+    client {
+      id
+      name
+    }
+    addresses {
+      lineOne
+      lineTwo
+      lineThree
+      city
+      state
+      postalCode
+      country
+      type
+    }
+    phones {
+      type
+      digits
+      extension
+    }
+    createdOn
+    updatedOn
+  }
+}

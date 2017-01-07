@@ -1,0 +1,9 @@
+query chartEquipmentDay($equipmentId: String!) {
+  chartEquipmentDay(equipmentId: $equipmentId) {
+    chartData {
+      day
+      actualUsage
+      estimateUsage
+    }
+  }
+}

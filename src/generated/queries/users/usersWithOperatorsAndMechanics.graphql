@@ -1,0 +1,20 @@
+query usersWithOperatorsAndMechanics($clientId: String!, $role: String, $searchText: String) {
+  userByClientId(clientId: $clientId, role: $role, searchText: $searchText) {
+    id
+    firstName
+    lastName
+    email
+  }
+  operators: userByClientId(clientId: $clientId, role: "Operator", searchText: $searchText) {
+    id
+    firstName
+    lastName
+    email
+  }
+  mechanics: userByClientId(clientId: $clientId, role: "Mechanic", searchText: $searchText) {
+    id
+    firstName
+    lastName
+    email
+  }
+}

@@ -1,0 +1,29 @@
+query serviceIntervals($skip: Int!, $pageSize: Int!, $searchText: String) {
+  serviceIntervals(skip: $skip, pageSize: $pageSize, searchText: $searchText) {
+    serviceIntervals {
+      id
+      title
+      make
+      model
+      meterType
+      client {
+        id
+        name
+      }
+      milestones {
+        title
+        alertBeforeDue
+        meterValue
+        oneTime
+        serviceItems {
+          name
+          partName
+          partNumber
+        }
+      }
+      createdOn
+      updatedOn
+    }
+    totalRows
+  }
+}

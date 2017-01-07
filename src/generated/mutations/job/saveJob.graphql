@@ -1,0 +1,57 @@
+mutation saveJob($data: JobInput!) {
+  saveJob(data: $data) {
+    id
+    jobNumber
+    name
+    client {
+      id
+      name
+    }
+    officeLocation {
+      id
+      name
+    }
+    notificationUsers {
+      id
+      firstName
+      lastName
+      email
+    }
+    foreman {
+      id
+      firstName
+      lastName
+      email
+    }
+    addresses {
+      lineOne
+      city
+      state
+      postalCode
+      country
+      type
+    }
+    equipment {
+      id
+      name
+      nickname
+      meterType
+      classification
+      make
+      model
+      vinOrSerial
+    }
+    operators {
+      id
+      firstName
+      lastName
+      email
+    }
+    mechanics {
+      id
+      firstName
+      lastName
+      email
+    }
+  }
+}

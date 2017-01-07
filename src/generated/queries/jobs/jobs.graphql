@@ -1,0 +1,49 @@
+query jobs($skip: Int!, $pageSize: Int!, $searchText: String) {
+  jobs(skip: $skip, pageSize: $pageSize, searchText: $searchText) {
+    jobs {
+      id
+      jobNumber
+      name
+      client {
+        id
+        name
+      }
+      # officeLocation {
+      #   name
+      # }
+      foreman {
+        id
+        firstName
+        lastName
+        email
+      }
+      # addresses {
+      #   lineOne
+      #   city
+      #   state
+      #   postalCode
+      #   country
+      #   type
+      # }
+      equipment {
+        id
+        name
+        nickname
+        meterType
+      }
+      # operators {
+      #   id
+      #   firstName
+      #   lastName
+      #   email
+      # }
+      # mechanics {
+      #   id
+      #   firstName
+      #   lastName
+      #   email
+      # }
+    }
+    totalRows
+  }
+}

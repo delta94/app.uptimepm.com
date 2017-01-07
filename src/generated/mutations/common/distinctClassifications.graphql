@@ -1,0 +1,3 @@
+mutation distinctClassifications($classification: String!) {
+  distinctClassifications(classification: $classification)
+}

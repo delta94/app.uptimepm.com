@@ -1,0 +1,8 @@
+mutation saveRolePermission($data: RolePermissionInput!) {
+  saveRolePermission(data: $data) {
+    id
+    name
+    type
+    privileges
+  }
+}

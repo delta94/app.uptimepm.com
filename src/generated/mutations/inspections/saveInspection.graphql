@@ -1,0 +1,29 @@
+mutation saveInspection($data: InspectionInput!) {
+  saveInspection(data: $data) {
+    id
+    meterValue
+    type
+    equipment {
+      id
+      name
+      classification
+      make
+      model
+    }
+    client {
+      id
+      name
+    }
+    checklist {
+      id
+      title
+      type
+      consumable
+      consumableAmount
+      consumableUnitOfMeasure
+      notes
+      status
+      photos
+    }
+  }
+}

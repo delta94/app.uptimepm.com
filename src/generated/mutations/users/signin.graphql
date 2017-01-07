@@ -1,0 +1,25 @@
+mutation signin($email: String!, $password: String!) {
+  signin(email: $email, password: $password) {
+    user {
+      id
+      firstName
+      lastName
+      email
+      notificationCount
+      client {
+        id
+        name
+      }
+      roles {
+        id
+        name
+        type
+        permissions {
+          name
+          privileges
+        }
+      }
+    }
+    token
+  }
+}

@@ -1,0 +1,44 @@
+query workOrdersPrint($selectedInspections: [String!]!) {
+  workOrdersPrint(selectedInspections: $selectedInspections) {
+    workOrders {
+      id
+      equipment {
+        id
+        name
+        classification
+        meterType
+        make
+        model
+        vinOrSerial
+      }
+      client {
+        id
+        name
+      }
+      reportedBy {
+        id
+        firstName
+        lastName
+        email
+      }
+      assignedTo {
+        id
+        firstName
+        lastName
+        email
+      }
+      inspection {
+        id
+        title
+      }
+      notes
+      photos
+      status
+      meterValue
+      completedOn
+      createdOn
+      updatedOn
+    }
+    totalRows
+  }
+}

@@ -1,0 +1,17 @@
+query dealersContact($skip: Int!, $pageSize: Int!, $searchText: String, $type: String!) {
+  dealersContact(skip: $skip, pageSize: $pageSize, searchText: $searchText, type: $type) {
+    dealers {
+      id
+      firstName
+      lastName
+      email
+      representativeType
+      phone {
+        type
+        digits
+        extension
+      }
+    }
+    totalRows
+  }
+}

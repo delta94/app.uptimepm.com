@@ -1,0 +1,11 @@
+{
+  "My Account": {
+    "defaults": "My Account",
+    "origin": [
+      [
+        "src/components/UserInfo/index.tsx",
+        12
+      ]
+    ]
+  }
+}

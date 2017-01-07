@@ -1,0 +1,59 @@
+query officeLocationById($id: String!) {
+  officeLocationById(id: $id) {
+    id
+    name
+    administrator {
+      id
+      firstName
+      lastName
+      email
+    }
+    client {
+      id
+      name
+    }
+    phones {
+      type
+      digits
+      extension
+    }
+    notificationUsers {
+      id
+      firstName
+      lastName
+      email
+    }
+    operators {
+      id
+      firstName
+      lastName
+      email
+    }
+    mechanics {
+      id
+      firstName
+      lastName
+      email
+    }
+    addresses {
+      lineOne
+      lineTwo
+      lineThree
+      city
+      state
+      postalCode
+      country
+      type
+    }
+    equipment {
+      id
+      name
+      nickname
+      meterType
+      classification
+      make
+      model
+      vinOrSerial
+    }
+  }
+}

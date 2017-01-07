@@ -1,0 +1,7 @@
+mutation findJobsForSelect($searchText: String!, $clientId: String!) {
+  findJobsForSelect(searchText: $searchText, clientId: $clientId) {
+    id
+    name
+    jobNumber
+  }
+}

@@ -1,0 +1,3 @@
+mutation equipmentNames($clientId: String!, $name: String!) {
+  equipmentNames(clientId: $clientId, name: $name)
+}

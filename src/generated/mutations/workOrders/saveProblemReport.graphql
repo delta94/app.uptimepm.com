@@ -1,0 +1,8 @@
+mutation saveProblemReport($data: ProblemReportInput!) {
+  saveProblemReport(data: $data) {
+    id
+    notes
+    status
+    meterValue
+  }
+}

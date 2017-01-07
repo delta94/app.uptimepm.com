@@ -1,0 +1,10 @@
+query serviceIntervalsForSelection($skip: Int!, $pageSize: Int!, $searchText: String) {
+  serviceIntervals(skip: $skip, pageSize: $pageSize, searchText: $searchText) {
+    serviceIntervals {
+      id
+      title
+      meterType
+    }
+    totalRows
+  }
+}

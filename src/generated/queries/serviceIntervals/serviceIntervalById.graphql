@@ -1,0 +1,30 @@
+query serviceIntervalById($id: String!) {
+  serviceIntervalById(id: $id) {
+    id
+    title
+    make
+    model
+    meterType
+    client {
+      id
+      name
+    }
+    milestones {
+      id
+      title
+      alertBeforeDue
+      meterValue
+      oneTime
+      serviceItems {
+        id
+        name
+        partName
+        partNumber
+        fromMilestoneId
+        isNew
+      }
+    }
+    createdOn
+    updatedOn
+  }
+}
